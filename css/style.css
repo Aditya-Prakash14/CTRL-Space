@@ -2810,9 +2810,12 @@ footer::before {
     }
     
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-bottom: 18px;
-        line-height: 1.1;
+        line-height: 1.2;
+        word-wrap: break-word;
+        white-space: normal;
+        padding: 0 10px;
     }
     
     .subtitle {
